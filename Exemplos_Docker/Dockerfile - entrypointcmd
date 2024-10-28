@@ -1,0 +1,7 @@
+FROM ubuntu:latest
+
+#comando insubstituivel/fixo
+ENTRYPOINT [ "echo", "Hello" ]
+
+#comando substituivel/parametro
+CMD [ "World" ] 
